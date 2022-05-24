@@ -1,0 +1,162 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300&display=swap"); */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2&display=swap");
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(0, 0, 0) !important;
+    /* WE HAVE COPIED THE EFFECT FROM THE BROWSER BUT WE NEED TO USE !imortant other wise we will not see any result */
+    /* font-weight: 700; */
+    font-family: "Roboto", sans-serif;
+    font-size: 1.2rem;
+}
+
+.con {
+    /* background-color: red; */
+    width: 1300px;
+    margin: 0 auto;
+}
+
+#my-logo-shubham {
+    letter-spacing: 5px;
+    /* border: 2px solid red; */
+    font-family: "Baloo 2", cursive;
+    font-weight: 500;
+}
+
+.imagec1 {
+    /* border: 2px solid red; */
+    /* background-color: none; */
+    border-radius: 10px;
+}
+
+.imagec1:hover {
+    /* background-color: rgb(200, 0, 250); */
+    border: 1px solid #a19696;
+    /* color: white; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: rgba(255, 255, 255, 0.509);
+    transform: scale(1.1);
+}
+
+.imagec2 {
+    /* border: 2px solid red; */
+    /* background-color: none; */
+    border-radius: 10px;
+}
+
+.imagec2:hover {
+    /* background-color: rgb(250, 0, 137);
+    color: white; */
+    /* background-color: rgb(200, 0, 250); */
+    border: 1px solid #a19696;
+    /* color: white; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: rgba(255, 255, 255, 0.509);
+    transform: scale(1.1);
+}
+
+#horizontal {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.spacingtag {
+    /* border: 2px solid red; */
+    margin-left: 90px;
+}
+
+#bestSelling {
+    border: 2pxx solid red;
+    width: 800px;
+    border-radius: 30px;
+    background-color: #55efc3b1;
+    height: 60px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 35px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#bestSelling h2 {
+    padding-top: 10px;
+}
+
+#bestBranded {
+    /* border: 2px solid red; */
+    width: 800px;
+    border-radius: 30px;
+    background-color: #74b9ff;
+    height: 60px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 55px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#bestBranded h2 {
+    padding-top: 10px;
+}
+
+.reviewLine1 {
+    display: flex;
+    border: 0.5px solid rgba(47, 44, 44, 0.349);
+    width: 1400px;
+    height: 300px;
+    margin: auto;
+    margin-top: 50px;
+    text-align: left;
+    justify-content: space-between;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border-radius: 15px;
+}
+
+.sectionForImage {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: red; */
+    align-items: center;
+    width: 600px;
+}
+
+.sectionForImage img {
+    width: 280px;
+}
+
+.sectionForReview1 {
+    margin-left: 5px;
+    /* border: 2px solid green; */
+}
+
+#image1ForReview {
+    /* border: 2px solid rgb(255, 0, 0); */
+    height: 270px;
+    margin-right: 30px;
+    width: 700px;
+    /* padding: 5px; */
+}
+
+#user1Review {
+    height: 270px;
+    width: 350px;
+    margin-top: 10px;
+}
+
+#user2Review {
+    height: 270px;
+    width: 350px;
+    margin-top: 10px;
+}
+
+.horizontal-line {
+    width: 1400px;
+    border: 1px solid rgba(117, 106, 106, 0.801);
+    height: 75px;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.horizontal-line h4 {
+    padding-top: 20px;
+    padding-left: 10px;
+}
